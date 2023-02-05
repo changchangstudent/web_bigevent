@@ -51,7 +51,7 @@ function renderAvatar(user) {
     // 按需渲染用户头像
     if (user.user_pic !== null) {
         // 设置用户自己的头像,隐藏文字头像
-        $(".layui-nav-img").atter("src", user.user_pic).show()
+        $(".layui-nav-img").attr("src", user.user_pic).show()
         $(".text-avater").hide()
     } else {
         // 设置用户文字头像,隐藏用户自己的头像
