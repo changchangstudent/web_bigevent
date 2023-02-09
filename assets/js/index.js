@@ -61,4 +61,9 @@ function renderAvatar(user) {
         $(".text-avater").html(first).show()
 
     }
+
+    function setId(a, b) {
+        $(a).addClass("layui-this")
+        $(b).removeClass("layui-this")
+    }
 }
